@@ -1,0 +1,531 @@
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$ pwd
+/c/Users/k_kanazawa
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$ ls
+'3D Objects'/             NTUSER.DAT{bfa467ac-eae7-11e9-86fc-f7e537198de5}.TxR.0.regtrans-ms
+ AppData/                 NTUSER.DAT{bfa467ac-eae7-11e9-86fc-f7e537198de5}.TxR.1.regtrans-ms
+'Application Data'@       NTUSER.DAT{bfa467ac-eae7-11e9-86fc-f7e537198de5}.TxR.2.regtrans-ms
+ Contacts/                NTUSER.DAT{bfa467ac-eae7-11e9-86fc-f7e537198de5}.TxR.blf
+ Cookies@                 NTUSER.DAT{bfa467ad-eae7-11e9-86fc-f7e537198de5}.TM.blf
+ Desktop/                 NTUSER.DAT{bfa467ad-eae7-11e9-86fc-f7e537198de5}.TMContainer00000000000000000001.regtrans-ms
+ Documents/               NTUSER.DAT{bfa467ad-eae7-11e9-86fc-f7e537198de5}.TMContainer00000000000000000002.regtrans-ms
+ Downloads/               ntuser.ini
+ Favorites/               OneDrive/
+ IntelGraphicsProfiles/   Pictures/
+ Links/                   PrintHood@
+'Local Settings'@         Recent@
+ MicrosoftEdgeBackups/   'Saved Games'/
+ Music/                   Searches/
+'My Documents'@           SendTo@
+ NetHood@                 Templates@
+ NTUSER.DAT               Videos/
+ ntuser.dat.LOG1         'スタート メニュー'@
+ ntuser.dat.LOG2
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$
+
+k_kanazawa@MyComputer MINGW64 ~
+$ cd ..
+
+k_kanazawa@MyComputer MINGW64 /c/Users
+$ pwd
+/c/Users
+
+k_kanazawa@MyComputer MINGW64 /c/Users
+$ cd ..
+
+k_kanazawa@MyComputer MINGW64 /c
+$ ls
+'$Recycle.Bin'/             hiberfil.sys   pagefile.sys            ProgramData/                  TMRescueDisk/
+ bootmgr                    Intel/         PerfLogs/               Recovery/                     Users/
+ BOOTNXT                    iobw.tst      'Program Files'/         swapfile.sys                  Windows/
+'Documents and Settings'@   kana/         'Program Files (x86)'/  'System Volume Information'/   Windows.old/
+
+k_kanazawa@MyComputer MINGW64 /c
+$
+
+k_kanazawa@MyComputer MINGW64 /c
+$ mkdir repo
+
+k_kanazawa@MyComputer MINGW64 /c
+$
+
+k_kanazawa@MyComputer MINGW64 /c
+$
+
+k_kanazawa@MyComputer MINGW64 /c
+$
+
+k_kanazawa@MyComputer MINGW64 /c
+$ cd repo
+
+k_kanazawa@MyComputer MINGW64 /c/repo
+$ pwd
+/c/repo
+
+k_kanazawa@MyComputer MINGW64 /c/repo
+$ ls
+
+k_kanazawa@MyComputer MINGW64 /c/repo
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo
+$ git init
+Initialized empty Git repository in C:/repo/.git/
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git add README.md
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ ls
+readme.md
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git add readme.md
+warning: CRLF will be replaced by LF in readme.md.
+The file will have its original line endings in your working directory
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   readme.md
+
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ echo $?
+0
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git commit -m "hoge"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'k_kanazawa@MyComputer.(none)')
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git config --global user.email "chimykana@icloud.com"
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git config --global user.name "kanazwk"
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git config --global
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git config -l
+core.symlinks=true
+core.autocrlf=input
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge --skip -- %f
+filter.lfs.process=git-lfs filter-process --skip
+filter.lfs.required=true
+credential.helper=manager
+user.email=chimykana@icloud.com
+user.name=kanazwk
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git commit -m "hoge"
+[master (root-commit) 17d757f] hoge
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.md
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git log
+commit 17d757f7146a5f6907321b7f11e5e427d1e01803 (HEAD -> master)
+Author: kanazwk <chimykana@icloud.com>
+Date:   Fri Oct 25 20:34:08 2019 +0900
+
+    hoge
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git remote add origin https://github.com/kanazwk/project.git
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 210 bytes | 105.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kanazwk/project.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ kanazwk
+bash: kanazwk: command not found
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git add index.html
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git log
+commit 17d757f7146a5f6907321b7f11e5e427d1e01803 (HEAD -> master, origin/master)
+Author: kanazwk <chimykana@icloud.com>
+Date:   Fri Oct 25 20:34:08 2019 +0900
+
+    hoge
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git commit -m "for pages."
+[master f0f919f] for pages.
+ 1 file changed, 1 insertion(+)
+ create mode 100644 index.html
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git push -u origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 282 bytes | 94.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kanazwk/project.git
+   17d757f..f0f919f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git commit -m "modify 01"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   index.html
+
+no changes added to commit
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git add index.html
+warning: CRLF will be replaced by LF in index.html.
+The file will have its original line endings in your working directory
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git commit -m "modify 01"
+[master 3b0fc38] modify 01
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 305 bytes | 152.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kanazwk/project.git
+   f0f919f..3b0fc38  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+k_kanazawa@MyComputer MINGW64 /c/repo (master)
+$
